@@ -1,6 +1,5 @@
 def highest_occurring_char(text):
-    """Find which alphabet character appears most often and how many times.
-    Only letters a-z and A-Z are considered."""
+    
     
     text_lower = text.lower()
     

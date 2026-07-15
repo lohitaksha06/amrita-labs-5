@@ -1,5 +1,5 @@
 def count_pairs_with_sum_ten(numbers):
-    """Go through each pair in the list and count how many add up to 10"""
+    
     pair_count = 0
     n = len(numbers)
     
