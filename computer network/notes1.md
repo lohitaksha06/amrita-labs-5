@@ -80,8 +80,43 @@ circuit switching: number of users supported..
 
 number of user = link capacity/bandwith per user
 
-1000mbps/100mbps = 10
+100-0mbps/100mbps = 10
 
 100mbps when active, active 10% of time
 since the link capacity is 1000 mbps
 1000/10 = 100 so about 100 users can b esupported on average3
+
+traceroute program: provides delay measurement from source to router along end end internet path towards destination. for all i
+
+rtt = round trip time (time taken for a packet to travel from source to the router and back)
+
+key logic
+    neither the server nor router can push bits faster than their respective link rates allow.
+    if r2 < rc bits flow through the>
+general rule - the bottleneck link's rate determines throughput
+
+example: shared core link with multiple downloads
+setup:10 server and 10 clients, all sharing a common link in the network core with rate R.
+
+5mbps/10 = 500 kbps per download
+even though each download's access links could theoretically support up to 1mbps, the shared core link limits each one to just 500 kbps.
+
+
+sockets
+process sends/recieves messages to/from its socket
+socket analogous to door 
+    sending process shoves message out door 
+    sending process relies on transport infrastructure on other side of door to deliver message to socket at recieving process
+
+to send hhtp message to gaia.cs.umass.edu.web server:
+
+what transport service does an app need?
+
+data integrity:
+    some apps require 100% reliable data transfer
+    other apps can tolerate some loss
+    
+
+UDP SERVICE
+ UPD is a no fril lightweight transport protocol providing minimal services
+ connectionless no handshaking communication starts

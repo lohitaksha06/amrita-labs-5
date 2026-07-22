@@ -49,11 +49,9 @@ def predict(X, rich_avg, poor_avg):
         else:
             predictions.append("POOR")
     return predictions
-
 if __name__ == "__main__":
     customers, X, payments = load_data()
     true_labels = classify_customers(payments)
-
     print("Customer Purchase Data & Classification:")
     print("Customer | Candies | Mangoes | Milk | Payment | Category")
     print("-" * 60)

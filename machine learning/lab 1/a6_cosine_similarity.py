@@ -1,8 +1,8 @@
 import numpy as np
 def load_full_vectors():
     np.random.seed(42)
-    vec1 = np.array([55, 4.2, 1.8, 120, 1.2, 95, 1, 0, 0, 0])
-    vec2 = np.array([42, 7.8, 1.2, 155, 0.9, 130, 0, 1, 0, 1])
+    vec1 = np.array([55,4.2,1.8,120,1.2,95,1,0,0,0])
+    vec2 = np.array([42,7.8,1.2, 155, 0.9, 130,0, 1,0, 1])
     return vec1, vec2
 def cosine_similarity(v1, v2):
     dot_product = 0

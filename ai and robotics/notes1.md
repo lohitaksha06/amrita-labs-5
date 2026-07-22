@@ -31,3 +31,14 @@ actuators
 4.servo motor
 5.stepper motor
 6.brushless motor
+
+degree of freedom - 7
+to place an object in this space, how many dof is reqd?
+what about orientation of the object?
+roll, pitch and yaw
+
+p=[a
+   b]
+bound vector way of representing vectoyr a and b.
+p= ax+by
+defining position and orientation of an object with respect to a frame is called as 'POSE'
