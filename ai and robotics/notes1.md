@@ -42,3 +42,31 @@ p=[a
 bound vector way of representing vectoyr a and b.
 p= ax+by
 defining position and orientation of an object with respect to a frame is called as 'POSE'
+
+Ap = aTb Bp
+
+aTb = [aRb atb]   (this is the matrix)
+      [0,0   1]
+
+Ap = AtB . bP   AND AtC = aTb . bTc
+Ap = aTb . bTc cp
+
+rotation and translation in 2d
+
+vP = vRb bp
+Ap = atv + vp
+Ap = atv + vRb bp
+
+Ap = atb + aRb bp
+
+homogenous matrix
+
+Ap = atb + aRb bp
+
+[Ax]=[cos theta  -sin theta][Bx] + [axb]
+[Ay] [sin theta   cos theta][By]   [ayb]
+
+[ax] = [cos theta  -sin theta  axb][Bx]
+[ay]   [sin theta   cos theta  ayb][By]
+                                   [1]
+
